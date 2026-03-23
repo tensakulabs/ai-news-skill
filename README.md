@@ -50,7 +50,8 @@ Add an entry to `~/.openclaw/cron/jobs.json`:
   "wakeMode": "now",
   "payload": {
     "kind": "agentTurn",
-    "message": "Run /ai-news --save and save to ~/.openclaw/ai-news/"
+    "message": "Run /ai-news --save and save to ~/.openclaw/ai-news/. Prioritize model releases and major announcements.",
+    "model": "anthropic/claude-sonnet-4-20250514"
   },
   "delivery": {
     "mode": "announce",
